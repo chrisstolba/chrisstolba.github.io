@@ -11,20 +11,21 @@
     <title>Et Ludus Magnus in Codice - Chris Stolba</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
   </head>
   
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-fixed-top">
-        <a class="navbar-brand" href="#">Chris Stolba</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Et Ludus Magnus in Codice</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#about">
               About
               <span class="sr-only">
                 (current)
@@ -36,7 +37,7 @@
               Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Project #1</a>
+              <a class="dropdown-item" href="#project1">Project #1</a>
               <a class="dropdown-item" href="#">Project #2</a>
               <a class="dropdown-item" href="#">Project #3</a>
               <a class="dropdown-item" href="#">Project #4</a>
@@ -46,9 +47,26 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
+      </div>
+    </nav>
+    
+    <div class="container-fluid">
+      
+      <div class="row about">
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+          <img src="images/selfie.jpg" class="img-fluid" id="selfie">
+          <span>Coder x Philosoper x Warrior</span>
         </div>
-      </nav>
+        <div class="col-lg-8 col-md-8 col-sm-12 description">
+          <h3><em>Chris Stolba</em></h3>
+          <p>
+            Always pushing to learn and challenge his understanding of his world. Ready to observe, analyze, and conquer any obstacles that might get in the way. Nothing can stop this man!
+          </p>
+          <p>Check out some of his project below!</p>
+        </div>
+      </div>
     </div>
+    
     <div class="scriptLoader">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

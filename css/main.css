@@ -1,0 +1,32 @@
+
+.about {
+  margin: 4em 0em 1em 0em;
+  padding: 1em 0;
+  position: relative;
+}
+
+.about img {
+  height: 100%;
+  width: 100%;
+  border-radius:50%;
+}
+
+.about span {
+  display: block;
+  color:#888;
+  position:relative;
+}
+
+.about .description {
+  padding:3em 2em 2em 2em;
+  border-left: 4px solid 
+}
+
+.about .description h3 {
+  font-weight: bolder;
+}
+
+.about .description p {
+  line-height: 2;
+  color:#888;
+}
