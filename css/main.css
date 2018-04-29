@@ -1,3 +1,7 @@
+.anchor {
+   position: relative;
+   top: -100px;
+}
 
 .about {
   margin: 4em 0em 1em 0em;
@@ -19,14 +23,68 @@
 
 .about .description {
   padding:3em 2em 2em 2em;
-  border-left: 4px solid 
+  border-left: 4px solid black;
 }
 
 .about .description h3 {
-  font-weight: bolder;
+  
 }
 
 .about .description p {
   line-height: 2;
   color:#888;
+}
+
+
+h2 {
+  margin-top: 1.5em;
+  padding-bottom:0.5em;
+  border-bottom: 4px solid black;
+}
+
+.projects {
+  margin:1em 1em 2em 1em;
+}
+
+.project-item {
+  padding:1em 1em 2em 1em;
+}
+
+.projects img {
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 10%;
+}
+
+.project-item span {
+  display: block;
+  position:relative;
+}
+
+.page-footer {
+  padding:2em 1em;
+}
+
+.page-footer h3 {
+  color:white;
+}
+
+.page-footer p {
+  color:#888;
+}
+
+.page-footer .contact-description {
+  line-height: 2;
+  padding:1em 0em 0em 1em;
+  border-left: 4px solid lightgray;
+}
+
+.page-footer .email {
+  padding-top:0.5em;
+}
+
+.social-icons {
+  color: white;
 }
