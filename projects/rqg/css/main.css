@@ -1,0 +1,37 @@
+body {
+  font-family: Roboto;
+  padding:0;
+  margin: 0;
+  background-color: grey;
+}
+
+#background {
+	margin-top:4em;
+	margin-bottom:4em;
+	padding-top:1em;
+	padding-bottom: 1em;
+	background-color: darkgray;
+	border-radius: 10%;
+}
+
+#background h1 {
+	border-bottom: 4px solid black;
+}
+
+#quoteContent {
+	height:100px;
+	padding:2.5em;
+	color:white;
+}
+
+#btn-left {
+	margin-top:1em;
+	margin-right:0.5em;
+	margin-bottom:1em;
+}
+
+#btn-right {
+	margin-top:1em;
+	margin-left:0.5em;
+	margin-bottom:1em;
+}
