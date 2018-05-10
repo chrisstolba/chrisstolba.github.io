@@ -22,7 +22,7 @@ function getWeatherJSON() {
 function setPosition(position) {
     sessionStorage._WW_xPos = position.coords.latitude;
     sessionStorage._WW_yPos = position.coords.longitude; 
-    sessionStorage._WW_apiCall = "http://api.openweathermap.org/data/2.5/weather?lat="+sessionStorage._WW_xPos+"&lon="+sessionStorage._WW_yPos+"&APPID=f2356112c969da84026d0b449c16fa88";
+    sessionStorage._WW_apiCall = "https://api.openweathermap.org/data/2.5/weather?lat="+sessionStorage._WW_xPos+"&lon="+sessionStorage._WW_yPos+"&APPID=f2356112c969da84026d0b449c16fa88";
     console.log(sessionStorage._WW_xPos,sessionStorage._WW_yPos,sessionStorage._WW_apiCall);
     console.log("Running callAPI()");
     callAPI();
