@@ -7,7 +7,7 @@ body {
 
 #background {
 	margin-top:4em;
-	margin-bottom:4em;
+	margin-bottom:2em;
 	padding-top:1em;
 	padding-bottom: 1em;
 	background-color: darkgray;
@@ -34,4 +34,8 @@ body {
 	margin-top:1em;
 	margin-left:0.5em;
 	margin-bottom:1em;
+}
+
+.describeProject {
+	color:white;
 }
