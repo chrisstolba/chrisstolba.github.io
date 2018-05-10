@@ -1,0 +1,44 @@
+body {
+  font-family: Roboto;
+  padding:0;
+  margin: 0;
+  background-color: grey;
+  color:white;
+}
+
+#iconHolder img {
+	display:inline;
+}
+
+#iconHolder i {
+	display:none;
+	font-size:2em;
+}
+
+.weatherButtons {
+	height:1.8em;
+	width:1.8em;
+	padding:.1em 0 0 0;
+	margin:0;
+}
+
+.weatherButtons i {
+	font-size: 1.5em;
+}
+
+.widgetContainer {
+	border-top:3px solid darkgray;
+	border-bottom:3px solid darkgray;
+	border-radius: 20%;
+	margin-top:.5em;
+	padding-bottom:1em;
+}
+
+.widgetContainer h2 {
+	margin-top:.5em;
+	font-size:1em;
+}
+
+.widgetContainer p {
+	margin:0;
+}
