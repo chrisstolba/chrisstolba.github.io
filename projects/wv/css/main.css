@@ -1,0 +1,59 @@
+body {
+  font-family: Roboto;
+  padding:0;
+  margin: 0;
+  background-color: grey;
+  color:white;
+}
+
+h1 {
+	padding:1em 0;
+	border-bottom:3px solid darkgray;
+	border-radius: 50%;
+	margin-bottom:.5em;
+}
+
+input {
+	margin:.25em;
+}
+
+button {
+	display: inline-block;
+}
+
+.btn {
+	margin-bottom:.25em;
+}
+
+#searchResultsArea {
+	margin-top:.5em;
+	border-top:3px solid darkgray;
+	border-top-right-radius: 20%;
+	border-top-left-radius: 20%;
+	height:400px;
+	padding-top:0.5em;
+}
+
+#searchResultsArea article {
+	border: 1px solid black;
+	border-radius:5px;
+	background-color: darkgray;
+	text-decoration: none;
+	margin:0.5em 10% 0.5em 10%;
+}
+
+#searchResultsArea h3 {
+	text-decoration: underline;
+	text-align:left;
+	margin:5px 0 0 5px;
+	padding-bottom:0;
+	font-size:1.25em;
+	color: white;
+}
+
+#searchResultsArea p {
+	font-size: .8em;
+	padding:5px 15px 0 15px;
+	margin-top:0;
+	color: white;
+}
