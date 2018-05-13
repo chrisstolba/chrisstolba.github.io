@@ -47,14 +47,14 @@ h2 {
 }
 
 .project-item {
-  padding:1em 1em 2em 1em;
+  padding:1em .5em 2em .5em;
 }
 
 .projects img {
   height: 100%;
   width: 100%;
-  max-width: 350px;
-  max-height: 350px;
+  max-width: 250px;
+  max-height: 250px;
   border-radius: 10%;
 }
 
