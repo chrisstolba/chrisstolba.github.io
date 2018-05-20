@@ -1,0 +1,67 @@
+body {
+  font-family: Roboto;
+  padding:0;
+  margin: 0;
+  background-color: grey;
+  color:white;
+}
+
+button {
+	margin-bottom:8px;
+}
+
+.streamersDivs div {
+	width:425px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+
+.streamersDivs a {
+	text-decoration: none;
+	color:white;
+}
+
+.streamersDivs article {
+	display: flex;
+	flex-wrap: wrap;
+	border:3px solid white;
+}
+
+.streamersDivs img {
+	max-height:75px;
+	max-width: 75px;
+	border-radius: 50%;
+	text-content: left;
+	margin:10px 10px;
+}
+
+.streamersDivs h3 {
+	margin: 10px 10px 0px 10px;
+}
+
+.streamersDivs h4 {
+	margin: 12.5px 0px 0px 0px;
+}
+
+.streamersData {
+	display:block;
+	text-align: center;
+	max-width:100%;
+	min-width:400px;
+}
+
+.streamersData p {
+	margin-bottom:5px;
+}
+/*
+<a>
+	<article>
+	<img>Logo
+	<h3>Name
+	<h4>online
+	<span>game
+	<span>mature
+	<span>status text
+
+*/

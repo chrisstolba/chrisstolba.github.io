@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- meta data -->
+		<meta charset="utf-8">
+		<title>Twitch.tv Stream-Watcher</title>
+		<meta arthor="Chris Stolba">
+		<meta name="viewport" content="width=device-width, initial-scale-1">
+
+		<!-- Loading Fonts/Styles -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+	</head>
+
+	<body class="text-center">
+		<header><h1>Twitch.tv Stream-Watcher</h1></header>
+		<main>
+			<button id="refreshStreams" onclick="refreshOnlineStatus()">Refresh Streams</button>
+			<p id="refreshStatus">Streams can be refreshed every 30 seconds.</p>
+			
+			<div class="row">
+				<div class="col-xl-4 col-lg-3 col-md-2 col-sm-1"></div>
+				<div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 streamersDivs">
+					<div id="ctl17" class="center-block"></div>
+					<div id="protech" class="text-center"></div>
+					<div id="handmade_hero"></div>
+				</div>
+				<div class="col-xl-4 col-lg-3 col-md-2 col-sm-1"></div>
+			</div>
+		</main>
+		<footer></footer>
+
+	
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>	
+		<script src="assets/jquery-3.3.1.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
