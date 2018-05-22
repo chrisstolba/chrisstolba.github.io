@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="application-name" content="Javascript Calculator">
+	<meta name="description" content="Basic calculator written in javascript, html, and css.">
+	<meta name="keywords" content="Basic Calc, Basic Calculator, Javascript Calculator, Javascript Calc">
+	<meta name="author" content="Chris Stolba">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div class="page">
+		<main class="calculator-body">
+			<header class="calculator-header"><h1>Javascript Calculator</h1></header>
+			<div class="calculator-screen">
+				<h2 id="answerDisplay">0</h2>
+				<h3 id="inputDisplay">0</h3>
+			</div>
+			<div class="calculator-button-area">
+				<ul class="calculator-buttons-list">
+					<li class="calculator-button" data-number="7" onclick="pushNumberToScreen(this)">7</li>
+					<li class="calculator-button" data-number="8" onclick="pushNumberToScreen(this)">8</li>
+					<li class="calculator-button" data-number="9" onclick="pushNumberToScreen(this)">9</li>
+					<li class="calculator-button" id="divideButton" onclick="divide()">/</li>
+					<li class="calculator-button" data-number="4" onclick="pushNumberToScreen(this)">4</li>
+					<li class="calculator-button" data-number="5" onclick="pushNumberToScreen(this)">5</li>
+					<li class="calculator-button" data-number="6" onclick="pushNumberToScreen(this)">6</li>
+					<li class="calculator-button" id="multiplyButton" onclick="multiply()">x</li>
+					<li class="calculator-button" data-number="1" onclick="pushNumberToScreen(this)">1</li>
+					<li class="calculator-button" data-number="2" onclick="pushNumberToScreen(this)">2</li>
+					<li class="calculator-button" data-number="3" onclick="pushNumberToScreen(this)">3</li>
+					<li class="calculator-button" id="subtractButton" onclick="subtract()">-</li>
+					<li class="calculator-button" data-number="0" onclick="pushNumberToScreen(this)">0</li>
+					<li class="calculator-button" data-number="." onclick="pushNumberToScreen(this)">.</li>
+					<li class="calculator-button" id="addButton" onclick="add()">+</li>
+					<li class="calculator-button" onclick="equals()">=</li>
+					<li class="calculator-button clearButton" onclick="clearScreen()">Clear</li>
+				</ul>
+			</div>
+		</main>
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
