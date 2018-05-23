@@ -130,6 +130,7 @@ function minusWorkTime() {
 		settingWorkMinutes -= 1;
 	document.getElementsByClassName('work-time-setting-box')[0].innerHTML = settingWorkMinutes + ':00';
 	}
+	resetButton();
 }
 
 function plusWorkTime() {
@@ -139,6 +140,7 @@ function plusWorkTime() {
 	} else {
 	document.getElementsByClassName('work-time-setting-box')[0].innerHTML = settingWorkMinutes + ':00';
 	}
+	resetButton();
 }
 
 function minusBreakTime() {
@@ -151,6 +153,7 @@ function minusBreakTime() {
 		settingBreakMinutes -= 1;
 		document.getElementsByClassName('break-time-setting-box')[0].innerHTML = settingBreakMinutes + ':00';
 	}
+	resetButton();
 }
 
 function plusBreakTime() {
@@ -160,6 +163,7 @@ function plusBreakTime() {
 	} else {
 	document.getElementsByClassName('break-time-setting-box')[0].innerHTML = settingBreakMinutes + ':00';
 	}
+	resetButton();
 }
 
 function minusRound() {
@@ -167,12 +171,15 @@ function minusRound() {
 		console.log("settingBreakMinutes === 1 // Can't go lower.");
 	} else {
 		settingRounds -= 1;
+		currentMaxRounds = settingRounds;
 		document.getElementsByClassName('rounds-setting-box')[0].innerHTML = settingRounds;
 	}
+	resetButton();
 }
 
 function plusRound() {
 	settingRounds += 1;
 	currentMaxRounds = settingRounds;
 	document.getElementsByClassName('rounds-setting-box')[0].innerHTML = settingRounds;
+	resetButton();
 }
