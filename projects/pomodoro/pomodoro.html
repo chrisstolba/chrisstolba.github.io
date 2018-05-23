@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="application-name" content="Pomodoro Timer">
+	<meta name="description" content="Simple Pomodoro Timer that will help you work and break appropriately.">
+	<meta name="keywords" content="pomodoro, pomodoro timer, pomodoro clock">
+	<meta name="author" content="Chris Stolba">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Pomodoro Timer</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+	<div class="page">
+		<div class="clock-body">
+			<header class="clock-header">
+				<h1>Pomodoro Timer</h1>
+			</header>
+			<main class="timer-screen-area">
+				<aside class="timer-data-display">
+					<h2>Round #<span class="timer-round-number">1 / 1</span></h2>
+					<h3 class="timer-work-or-break">Work</h3>
+				</aside>
+				<section class="timer-screen">00:00</section>
+			</main>
+			<main class="timer-setting-area">
+				<header class="timer-setting-button-area">
+					<button class="timer-button-start-pause" onclick="startOrPauseButton()">Start</button>
+					<button class="timer-button-reset" onclick="resetButton()">Reset</button>
+				</header>
+				<section class="timer-settings">
+					<aside class="setting-descriptions">
+						<h3>Work Time</h3>
+						<h3>Break Time</h3>
+						<h3>Max Rounds</h3>
+					</aside>
+					<div class="settings-adjustments">
+						<span class="timer-work-time-settings">
+							<button class="minusButton" onclick="minusWorkTime()">-</button>
+							<span class="work-time-setting-box">25:00</span>
+							<button class="plusButton" onclick="plusWorkTime()">+</button>
+						</span>
+						<span class="timer-break-time-settings">
+							<button class="minusButton" onclick="minusBreakTime()">-</button>
+							<span class="break-time-setting-box">05:00</span>
+							<button class="plusButton" onclick="plusBreakTime()">+</button>
+						</span>
+						<span class="timer-rounds-settings">
+							<button class="minusButton" onclick="minusRound()">-</button>
+							<span class="rounds-setting-box">1</span>
+							<button class="plusButton" onclick="plusRound()">+</button>
+						</span>
+					</div>	
+				</section>
+			</main>
+		</div>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

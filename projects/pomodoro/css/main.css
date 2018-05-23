@@ -1,0 +1,90 @@
+*, body {
+	padding:0;
+	margin:0;
+}
+
+.page {
+	background-color: black;
+	color:lightgray;
+	height:100vh;
+	padding-top:15px;
+}
+
+.clock-body {
+	border: 1px dashed white;
+	border-radius: 5px;
+	max-width:330px;
+	max-height:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.clock-header {
+	width:100%;
+	text-align: center;
+	border-bottom:1px dashed white;
+}
+
+.timer-screen-area {
+	border-bottom:1px dashed white;
+	display:flex;
+}
+
+.timer-data-display {
+	border-right:1px dashed white;
+	text-align: center;
+	width:50%;
+	line-height: 30px;
+}
+
+.timer-screen {
+	margin-left:auto;
+	margin-right:auto;
+	font-size:3em;
+	line-height: 60px;
+}
+
+.timer-setting-area {
+	padding:5px;
+}
+
+.timer-setting-button-area {
+	text-align: center;
+	margin-bottom:5px;
+}
+
+.timer-setting-button-area button {
+	width:80px;
+	height:30px;
+	border-radius:5px;
+	font-size:18px;
+	margin:0px 10px 0px 10px;
+}
+
+.timer-settings {
+	display:flex;
+	margin-left:8px;
+	margin-right:8px;
+	padding-top:5px;
+}
+
+.timer-settings button {
+	height:15px;
+	width:15px;
+	border:none;
+	border-radius: 5px;
+	padding-bottom:5px;
+}
+
+.setting-descriptions {
+	width:50%;
+	text-align:center;
+}
+
+.settings-adjustments {
+	width:50%;
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	line-height: 21px;
+}
