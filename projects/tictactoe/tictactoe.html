@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="application-name" content="Tic Tac Toe">
+	<meta name="keywords" content="Tic Tac Toe, TTT, Tic Tac">
+	<meta name="description" content="Simple game of tic tac toe">
+	<meta name="author" content="Chris Stolba">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" content="text/css" href="css/main.css">
+	<link rel="icon" content="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+	<div class="page">
+		<header class="tictactoe-header"><h1><span class="tictactoe-header-ornaments">O</span> Tic <span class="tictactoe-header-ornaments">x</span> Tac <span class="tictactoe-header-ornaments">o</span> Toe <span class="tictactoe-header-ornaments">X</span></h1></header>
+		<div class="tictactoe-options-bar">
+			<section class="tictactoe-options-1"><button class="tictactoe-new-game-button" onclick="startNewGame()">New Game</button></section>
+			<section class="tictactoe-options-2"><button class="tictactoe-play-x-button" onclick="playerPickX()">Player 1 - X's</button> or <button class="tictactoe-play-o-button" onclick="playerPickO()">Player 2 - O's</button></section>
+			<section class="tictactoe-options-3"><button class="tictactoe-reset-game" onclick="resetCurrentGame()">Reset Game</button><span class="tictactoe-whos-turn" style="font-weight:900;">Turn 1 - Your Turn</span></section>
+		</div>
+		<div class="tictactoe-board-background">
+			<div class="tictactoe-board">
+				<div class="tictactoe-row-1">
+					<div class="tictactoe-cell" id="ttt-cell-1" data-cell-number="1" onclick="cellClick(this);"></div>
+					<div class="tictactoe-cell" id="ttt-cell-2" data-cell-number="2" onclick="cellClick(this);"></div>
+					<div class="tictactoe-cell" id="ttt-cell-3" data-cell-number="3" onclick="cellClick(this);"></div>
+				</div>
+				<div class="tictactoe-row-2">
+					<div class="tictactoe-cell" id="ttt-cell-4" data-cell-number="4" onclick="cellClick(this);"></div>
+					<div class="tictactoe-cell" id="ttt-cell-5" data-cell-number="5" onclick="cellClick(this);">
+				</div>
+					<div class="tictactoe-cell" id="ttt-cell-6" data-cell-number="6" onclick="cellClick(this);"></div>
+				</div>
+				<div class="tictactoe-row-3">
+					<div class="tictactoe-cell" id="ttt-cell-7" data-cell-number="7" onclick="cellClick(this);"></div>
+					<div class="tictactoe-cell" id="ttt-cell-8" data-cell-number="8" onclick="cellClick(this);"></div>
+					<div class="tictactoe-cell" id="ttt-cell-9" data-cell-number="9" onclick="cellClick(this);"></div>
+				</div>
+			</div>
+			<div class="tictactoe-game-banner"><h1 class="tictactoe-win-loss-message">Victory!</h1></div>
+		</div>
+		<footer class="tictactoe-footer"><h4>Tic Tac Toe - made by Chris Stolba</h4></footer>
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
