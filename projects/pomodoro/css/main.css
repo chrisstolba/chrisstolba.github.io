@@ -59,6 +59,8 @@
 	border-radius:5px;
 	font-size:18px;
 	margin:0px 10px 0px 10px;
+	background-color: lightgrey;
+	border:1px solid gray;
 }
 
 .timer-settings {
@@ -74,6 +76,8 @@
 	border:none;
 	border-radius: 5px;
 	padding-bottom:5px;
+	background-color: lightgrey;
+	border:1px solid gray;
 }
 
 .setting-descriptions {
