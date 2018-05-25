@@ -64,6 +64,7 @@ function computerCellClick(cell) {
 }
 
 function computersTurn() {
+	if (gameRunning === false) {return;}
 	console.log('Computers Turn');
 	var blockThreeXs = /XX |X X| XX/;
 	var blockThreeOs = /OO |O O| OO/;
