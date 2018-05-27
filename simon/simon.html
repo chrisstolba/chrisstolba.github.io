@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="application-name" content="Simon Game">
+    <meta name="keywords" content="simon game, simon says, simon buttons, simon">
+    <meta name="description" content="Simple game of Simon!">
+    <meta name="author" content="Chris Stolba">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div class="page">
+        <header class="simon_header"><h1>Simon Game</h1></header>
+        <div class="simon_game">
+            <div class="simon_button green_button" onclick="buttonPress(this);" data-button-color="Green"></div>
+            <div class="simon_button blue_button" onclick="buttonPress(this);" data-button-color="Blue"></div>
+            <div class="simon_button yellow_button" onclick="buttonPress(this);" data-button-color="Yellow"></div>
+            <div class="simon_button red_button" onclick="buttonPress(this);" data-button-color="Red"></div>
+            <div class="simon_control_panel">
+                <div class="simon_number_screen">00</div>
+                <div class="simon_control_buttons">
+                    <button class="simon_start_button" onclick="simon_start_button();">PLAY</button>
+                    <button class="simon_reset_button" onclick="simon_reset_button();">RESET</button>
+                    <button class="simon_strict_button" onclick="simon_strict_button();">STRICT</button>
+                </div>
+                <div class="simon_digital_banner">PRESS START</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+

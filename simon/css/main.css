@@ -1,0 +1,125 @@
+*, body {
+	margin:0px;
+  padding:0px;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color:lightgray;
+}
+
+.simon_header {
+  text-align: center;
+  height:5vmin;
+  line-height: 5vmin;
+  padding-top:2.5vmin;
+  margin-bottom:2.5vmin;
+}
+
+.simon_game {
+  position:relative;
+  display:block;
+	background: black;
+  border:5vmin solid darkgray;
+	border-radius: 50%;
+	height:70vmin;
+	width:70vmin;
+  overflow:hidden;
+  margin:0 auto;
+  box-shadow:0px 5px 20px black;
+}
+
+.simon_button {
+  display:inline-block;
+  float:left;
+  height:33.02vmin;
+  width:33vmin;
+}
+.green_button {
+  background-color: #43bc32;
+  border-right:2vmin solid darkgray;
+  border-bottom:2vmin solid darkgray;
+}
+
+.blue_button {
+  background-color:#4958cc;
+  border-left:2vmin solid darkgray;
+  border-bottom:2vmin solid darkgray;
+}
+
+.yellow_button {
+  background-color:#e2d631;
+  border-right:2vmin solid darkgray;
+  border-top:2vmin solid darkgray;
+}
+
+.red_button {
+  background-color:#bc3c3c;
+  border-left:2vmin solid darkgray;
+  border-top:2vmin solid darkgray;
+}
+
+.simon_control_panel { 
+  position:absolute;
+  background: #a9aaab;
+  border-radius: 50%;
+  right: 15vmin;
+  left: 15vmin;
+  top: 15vmin;
+  bottom: 15vmin;  
+  box-shadow: inset 0px 0px 0.2vmin black;
+}
+
+.simon_number_screen {
+  position:absolute;
+  text-align: center;
+  border:1px solid gray;
+  border-radius: 5px;
+  right: 0vmin;
+  left: 15.5vmin;
+  top: 27vmin;
+  bottom: 8vmin;
+  width:8vmin;
+  font-size:4vmin;
+  background-color: lightgray;
+  box-shadow: inset .2vmin .2vmin .5vmin black;
+}
+
+.simon_digital_banner {
+  position:absolute;
+  text-align: center;
+  border:1px solid gray;
+  border-radius: 5px;
+  right: 15vmin;
+  left: 4.6vmin;
+  top: 8vmin;
+  bottom: 25.5vmin;
+  width:30vmin;
+  font-size:4vmin;
+  line-height: 5vmin;
+  padding-top:.5vmin;
+  background-color: lightgray;
+  box-shadow: inset .2vmin .2vmin .5vmin black;
+}
+
+.simon_control_buttons {
+  position: absolute;
+  text-align: center;
+  right: 30vmin;
+  left: 5vmin;
+  top: 18vmin;
+  bottom: 15vmin;
+  width:35vmin;
+}
+
+.simon_control_buttons button {
+  display:inline-block;
+  float:left;
+  font-size: 2vmin;
+  border:none;
+  padding:1px 2px 1px 2px; 
+  margin:0px 2vmin 0px 2vmin;
+  border-radius: 3px;
+  box-shadow: .1vmin .1vmin .25vmin black;
+}
