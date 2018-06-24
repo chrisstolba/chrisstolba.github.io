@@ -1,155 +1,130 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chris Stolba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+</head>
 
-<html lang="en">
+<body>
+    <div class="wrapper">
 
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="description" content="Online Portfolio">
-    <meta name="author" content="Chris Stolba">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Et Ludus Magnus in Codice - Chris Stolba</title>
-    <!-- Add-ons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-  </head>
+        <nav  class="nav">
+            <h1 class="nav__header">Chris Stolba</h1>
+            <ul class="nav__list">
+                <li class="nav__list__item"><a href="#about-section">About</a></li>
+                <li class="nav__list__item"><a href="#projects-section">Projects</a></li>
+            </ul>
+        </nav> 
 
-  <body>
-    
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Et Ludus Magnus in Codice</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div class="main">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto" data-toggle="collapse" data-target=".navbar-collapse">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about">
-              About
-              <span class="sr-only">
-                (current)
-              </span>
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Projects
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#projects">All Projects</a>
-              <a class="dropdown-item" href="/projects/calculator/calculator.html" target="_blank">Javascript Calculator</a>
-              <a class="dropdown-item" href="/projects/simon/simon.html" target="_blank">Simon Game</a>
-              <a class="dropdown-item" href="/projects/pomodoro/pomodoro.html" target="_blank">Pomodoro Timer</a>
-              <a class="dropdown-item" href="/projects/tictactoe/tictactoe.html" target="_blank">Tic Tac Toe</a>
-              <a class="dropdown-item" href="/projects/wv/wv.html" target="_blank">Wikipedia Viewer</a>
-              <a class="dropdown-item" href="/projects/twitch-widget/twitch-widget.html" target="_blank">Twitch Stream Watcher</a>
-              <a class="dropdown-item" href="/projects/ww/ww.html" target="_blank">Mini Weather Widget</a>
-              <a class="dropdown-item" href="/projects/rqg/rqg.html" target="_blank">Random Quote Tweeter</a>
+            <div id="about-section" class="about">
+                <div class="about__portrait">
+                    <img src="images/about/selfie.png">
+                    <span class="about__caption">Coder x Coach x Manager</span>
+                </div>
+                <div class="about__card">
+                    <h1 class="about__card__header">About Chris Stolba</h1>
+                    <p>Chris enjoys simplifying, navigating, and solving the complexity that life offers. He is ready to observe, analyze, and conquer any obstacles that might get in the way. Chris is always striving to learn and challenge himself.</p>
+                    <ul class="about__card__list">
+                        <li class="about__card__list__item">HTML</li>
+                        <li class="about__card__list__item">CSS</li>
+                        <li class="about__card__list__item">Javascript</li>
+                        <li class="about__card__list__item">React</li>
+                        <li class="about__card__list__item">NodeJS</li>
+                        <li class="about__card__list__item">SQL</li>
+                    </ul>
+                </div>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    
-    <div class="row about">
-      <a name="about" class="anchor"></a>
-      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-        <img src="images/selfie.png" class="img-fluid" id="selfie">
-        <span>Coder x Coach x Manager</span>
-      </div>
-      <div class="col-lg-8 col-md-8 col-sm-12 description">
-        <h3><em>Chris Stolba</em></h3>
-        <p>
-          Chris is into simplifying, navigating, and solving the complexity that life offers. Ready to observe, analyze, and conquer any obstacles that might get in the way. He is always striving to learn and challenge himself. Ready, not only, to dig deep for tough answers, but to change the perspective on the problem space and find better questions as well.
-        </p>
-        <br/>
-        <h6>Nothing can stop this man!</h6>
-        <p>Check out some of his project below!</p>
-      </div>
-    </div>
-    
-    
-    <h2 class="text-center"><a name="projects" style="padding-top: 70px;margin-top: -70px;"></a>Projects</h2>
-    <div class="row projects text-center">
-      <div class="col-lg-3 col-md-4 col-sm-6 project-item">
-        <span>Javascript Calculator</span>
-        <a href="/projects/calculator/calculator.html" target="_blank"><img src="images/calculatorThumb.png" class="img-fluid"></a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 project-item">
-        <span>Simon Game</span>
-        <a href="/projects/simon/simon.html" target="_blank"><img src="images/simonThumb.jpg" class="img-fluid"></a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 project-item">
-        <span>Pomodoro Timer</span>
-        <a href="/projects/pomodoro/pomodoro.html" target="_blank"><img src="images/pomodoroThumb.png" class="img-fluid"></a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 project-item">
-        <span>Tic Tac Toe</span>
-        <a href="/projects/tictactoe/tictactoe.html" target="_blank"><img src="images/tictactoeThumb.png" class="img-fluid"></a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 project-item">
-        <span>Wikipedia Viewer</span>
-        <a href="/projects/wv/wv.html" target="_blank"><img src="images/wvThumb.png" class="img-fluid"></a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 project-item"><span>Twitch Stream Watcher</span>
-        <a href="/projects/twitch-widget/twitch-widget.html" target="_blank"><img src="images/twitch-widget-thumb.png" class="img-fluid"></a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 project-item">
-        <span>Mini Weather Widget</span>
-        <a href="/projects/ww/ww.html" target="_blank"><img src="images/wwThumb.png" class="img-fluid"></a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 project-item">
-        <span>Random Quote Tweeter</span>
-        <a href="/projects/rqg/rqg.html" target="_blank"><img src="images/rqgThumb.png" class="img-fluid"></a>
-      </div>
-    </div>
-    
-    <footer class="page-footer font-small bg-dark text-center text-justify">
-      <a name="contact"></a>
-      <div class="row footer">
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <h3>Contact</h3>
-          <p class="email">
-            <a class="btn-floating btn-sm btn-li mx-1" href="mailto:stolbac@gmail.com" target="_blank">
-              <i class="fa fa-envelope"></i></a>StolbaC@gmail.com
-          </p>
-          <ul class="social-icons list-unstyled list-inline">
-            <li class="list-inline-item">
-              <a class="btn-floating btn-sm btn-tw mx-1" href="https://twitter.com/chrisstolba" target="_blank">
-                <i class="fa fa-twitter"> </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn-floating btn-sm btn-gplus mx-1" href="https://github.com/chrisstolba" target="_blank">
-                <i class="fa fa-github"> </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn-floating btn-sm btn-li mx-1" href="https://www.linkedin.com/in/chrisstolba/" target="_blank">
-                <i class="fa fa-linkedin"> </i>
-              </a>
-            </li>
-          </ul>
+            
+            <div id="projects-section" class="projects">
+                <h1 class="projects__header">My Projects</h1>
+                <ul class="projects__gallery">
+                    <li class="projects__item">
+                        <a href="/projects/simon/simon.html" target="_blank">
+                            <h2 class="projects__item__title">Simon Game</h2>
+                            <div class="projects__item__image">
+                                <img src="images/project/simon-thumb.jpg">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="/projects/calculator/calculator.html" target="_blank">
+                            <h2 class="projects__item__title">Calculator</h2>
+                            <div class="projects__item__image">
+                                <img src="images/project/calculator-thumb.jpg">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="/projects/tictactoe/tictactoe.html" target="_blank">
+                            <h2 class="projects__item__title">Tic Tac Toe</h2>
+                            <div class="projects__item__image">
+                                <img src="images/project/tictactoe-thumb.jpg">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="/projects/pomodoro/pomodoro.html" target="_blank">
+                            <h2 class="projects__item__title">Pomodoro Timer</h2>
+                            <div class="projects__item__image">
+                                <img src="images/project/pomodoro-thumb.jpg">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="/projects/twitch-widget/twitch-widget.html" target="_blank">
+                            <h2 class="projects__item__title">Twitch Watcher</h2>
+                            <div class="projects__item__image">
+                                <img src="images/project/twitchWatcher-thumb.jpg">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="/projects/wv/wv.html" target="_blank">
+                            <h2 class="projects__item__title">Wikipedia Seach</h2>
+                            <div class="projects__item__image">
+                                <img src="images/project/wikiSeacher-thumb.jpg">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="/projects/ww/ww.html" target="_blank">
+                            <h2 class="projects__item__title">Weather Widget</h2>
+                            <div class="projects__item__image">
+                                <img src="images/project/weatherWidget-thumb.jpg">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="/projects/rqg/rqg.html" target="_blank">
+                            <h2 class="projects__item__title">Quote Tweeter</h2>
+                            <div class="projects__item__image">
+                                <img src="images/project/quoteTweeter-thumb.jpg">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-        <div class="col-lg-8 col-md-8 col-sm-8 contact-description">
-          <p>Feel free to reach out to me via email or social media with questions, thoughts, or opportunity. I am always willing to having a good discussion with anyone.</p>
-        </div>
-      </div>
-    </footer>
-                      
-    
-    <div class="scriptLoader">
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-      <script src="js/scripts.js"></script>
+
+        <footer id="contact-section" class="footer">
+            <h1 class="footer__header">Contact</h1>
+            <span class="footer__email">Stolbac@gmail.com</span>
+            <ul class="footer__list">
+                <li class="footer__list__item"><a href="mailto:stolbac@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li class="footer__list__item"><a href="https://github.com/chrisstolba"><i class="fab fa-github"></i></a></li>
+                <li class="footer__list__item"><a href="https://www.linkedin.com/in/chrisstolba/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="footer__list__item"><a href="https://twitter.com/chrisstolba"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </footer>
     </div>
-  </body>
+    
+    <script src="scripts.js"></script>
+</body>
 </html>

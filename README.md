@@ -1,5 +1,8 @@
-# chrisstolba.github.io
-Online Portfolio for Chris Stolba
+# Developer Portfolio
+
+This is my personal portfolio for web development.
+
+You can access this website at httpls://chrisstolba.github.io
 
 You can find my GitHub at https://github.com/chrisstolba
 
